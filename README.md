@@ -286,7 +286,7 @@ netlify deploy --prod
 Replace placeholders with your own values.
 
 ```txt
-vless://UUID@YOUR_NETLIFY_DOMAIN:443?encryption=none&security=tls&sni=YOUR_NETLIFY_DOMAIN&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=xhttp&host=YOUR_NETLIFY_DOMAIN&path=YOUR_PATH&mode=auto&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D#net
+vless://UUID@xxxxx=SNi:443?encryption=none&security=tls&sni=xxx&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=xhttp&host=YOUR_NETLIFY_DOMAIN&path=YOUR_PATH&mode=auto&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D#net
 ```
 
 ### Replace these
@@ -363,6 +363,8 @@ If this command fails, fix your backend/domain/port first.
 ---
 
 ## 💰 Donate
+
+https://reymit.ir/amirshaker
 
 Solana:
 
